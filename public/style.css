@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #e6f7ff;
+    color: #033;
+}
+
+/* MENU */
+
+.menu{
+    background: linear-gradient(to right, #0099cc, #006699);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.menu h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.menu p{
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* CONTEÚDO */
+
+.conteudo{
+    background-color: white;
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.conteudo h2{
+    color: #006699;
+    margin-bottom: 15px;
+}
+
+.conteudo p{
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.conteudo ul{
+    margin-left: 25px;
+}
+
+.conteudo li{
+    margin-bottom: 10px;
+}
+
+/* BOTÃO CADASTRO */
+
+.cadastro{
+    text-align: center;
+    margin: 40px;
+}
+
+.cadastro a{
+    background-color: #0099cc;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.cadastro a:hover{
+    background-color: #006699;
+}
+
+/* LOCALIZAÇÃO E CONTATO */
+
+.localizacao,
+.contato{
+    background-color: white;
+    width: 80%;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.localizacao h2,
+.contato h2{
+    color: #006699;
+    margin-bottom: 15px;
+}
+
+/* RODAPÉ */
+
+.rodape{
+    background-color: #004d66;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+/* css para cadastro_usuario.html */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #e6f7ff;
+    color: #033;
+}
+
+/* TOPO */
+
+.cadastro_usuario{
+    background: linear-gradient(to right, #0099cc, #006699);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cadastro_usuario h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.cadastro_usuario p{
+    font-size: 18px;
+}
+
+/* FORMULÁRIO */
+
+.formulario{
+    background-color: white;
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.formulario h2{
+    color: #006699;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.formulario p{
+    margin-bottom: 15px;
+}
+
+/* INPUTS */
+
+input[type="text"],
+input[type="date"]{
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #99d6ff;
+    border-radius: 8px;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus{
+    border-color: #0099cc;
+}
+
+/* BOTÕES */
+
+input[type="submit"]{
+    background-color: #0099cc;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]:hover{
+    background-color: #006699;
+}
+
+/* VOLTAR */
+
+.voltar{
+    text-align: center;
+    margin: 40px;
+}
+
+.voltar a{
+    display: inline-block;
+    background-color: #0099cc;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.voltar a:hover{
+    background-color: #006699;
+}
+
+.voltar p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* RODAPÉ */
+
+.rodape{
+    background-color: #004d66;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* css para cadstro_produto.html*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    background-color: #e6f7ff;
+}
+
+/* TOPO */
+
+.cadastro_produto{
+    background-color: #0099cc;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* FORMULÁRIO */
+
+.formulario_produto{
+    background-color: white;
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formulario_produto h2{
+    color: #006699;
+    margin-bottom: 15px;
+}
+
+input,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #99d6ff;
+    border-radius: 5px;
+}
+
+/* BOTÃO */
+
+input[type="submit"]{
+    background-color: #0099cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #006699;
+}
+
+/* TABELA */
+
+.Tabela{
+    background-color: white;
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Tabela h2{
+    color: #006699;
+    margin-bottom: 15px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #0099cc;
+    color: white;
+}
+
+th, td{
+    padding: 10px;
+    border: 1px solid #cceeff;
+    text-align: center;
+}
+
+/* css para resposta_usuario.ejs */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+/* caixa da resposta */
+.resposta_usuario {
+    background-color: #ffffff;
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.resposta_usuario h1 {
+    text-align: center;
+    color: #0077b6;
+}
+
+.resposta_usuario p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* área de voltar */
+.voltar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.voltar a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #0077b6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.voltar a:hover {
+    background-color: #023e8a;
+}
+
+/* css para resposta_produto.ejs */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+/* caixa da resposta do produto */
+.resposta_produto {
+    background-color: #ffffff;
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.resposta_produto h1 {
+    text-align: center;
+    color: #0077b6;
+}
+
+.resposta_produto p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* botão voltar */
+.voltar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.voltar a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #0077b6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.voltar a:hover {
+    background-color: #023e8a;
+}

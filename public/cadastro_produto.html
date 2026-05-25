@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cadastro_produto">
+        <h1>Cadastro de produto</h1>
+        <p>Preencha o formulário abaixo para cadastrar um produto:</p>
+    </div>
+
+    <div class="formulario_produto">
+        <h2>Formulário de cadastro de produto</h2>
+        <form action="/cadastro_produto" method="post">
+            <p>Nome do produto: <input type="text" name="nome_produto"></p>
+            <p>Preço: <input type="number" name="preco_produto" step="0.01"></p>
+            <p>Descrição: <textarea name="descricao_produto"></textarea></p>
+            <input type="submit" value="Cadastrar produto">
+        </form>
+    </div>
+
+    <div class="Tabela">
+
+        <h2>Produtos cadastrados</h2>
+        <table>
+            <tr>
+                <th>Nome do produto</th>
+                <th>Preço</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td>Quarto individual</td>
+                <td>R$ 290,99</td>
+                <td>Quarto com vista para o mar</td>
+            </tr>
+                <tr>
+                    <td>Quarto duplo</td>
+                    <td>R$ 450,50</td>
+                    <td>Quarto com vista para a cidade</td>
+                </tr>
+                    <tr>
+                        <td>Suíte presidencial</td>
+                        <td>R$ 1200,00</td>
+                        <td>Suíte com vista para o mar e jacuzzi</td>
+                    </tr>
+
+                    <tr>
+                        <td>Quarto família</td>
+                        <td>R$ 800,00</td>
+                        <td>Quarto com capacidade para 4 pessoas e vista para o jardim</td>
+                    </tr>
+        </table>
+    </div>
+</body>
+</html>

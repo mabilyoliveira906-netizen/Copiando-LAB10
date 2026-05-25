@@ -1,0 +1,17 @@
+{
+  "name": "copiando-lab10",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Mabily",
+  "type": "commonjs",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "js": "^0.1.0",
+    "mongodb": "^7.2.0"
+  }
+}
