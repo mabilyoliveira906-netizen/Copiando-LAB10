@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+<h1>Lista de Carros</h1>
+
+<table border="1" style="margin:auto; background:white;">
+    <tr>
+        <th>Marca</th>
+        <th>Modelo</th>
+        <th>Ano</th>
+        <th>Quantidade</th>
+    </tr>
+
+    <% carros.forEach(function(carro){ %>
+    <tr>
+        <td><%= carro.marca %></td>
+        <td><%= carro.modelo %></td>
+        <td><%= carro.ano %></td>
+
+        <td>
+            <% if (carro.qtde_disponivel <= 0) { %>
+                <span style="color:red;"><b>Esgotado</b></span>
+            <% } else { %>
+                <%= carro.qtde_disponivel %>
+            <% } %>
+        </td>
+    </tr>
+    <% }) %>
+
+</table>
+<div style="margin-top: 20px;">
+    <a href="/novoCarro" class="botao">+ Novo Carro</a>
+</div>
+
+</body>
+</html>

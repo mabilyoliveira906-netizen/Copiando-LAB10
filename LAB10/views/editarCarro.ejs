@@ -1,0 +1,33 @@
+<!-- views/editarCarro.ejs -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Editar Carro</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+<h1>Editar Carro</h1>
+
+<form method="POST" action="/editar/<%= carro._id %>">
+
+    <input name="marca" value="<%= carro.marca %>">
+    <br><br>
+
+    <input name="modelo" value="<%= carro.modelo %>">
+    <br><br>
+
+    <input name="ano" value="<%= carro.ano %>">
+    <br><br>
+
+    <input name="qtde" value="<%= carro.qtde_disponivel %>">
+    <br><br>
+
+    <button type="submit">Atualizar</button>
+
+</form>
+
+</body>
+</html>

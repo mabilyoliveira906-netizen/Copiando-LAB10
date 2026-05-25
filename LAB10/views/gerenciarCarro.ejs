@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gerência de Carros</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+<div class="menu">
+    <a href="/" class="botao">Home</a>
+    <a href="/novoCarro" class="botao">Cadastrar Carro</a>
+    <a href="/carros" class="botao">Lista</a>
+</div>
+
+<h1>Gerência de Carros</h1>
+
+<table border="1" style="margin:auto; background:white; text-align:center;">
+
+    <tr>
+        <th>Marca</th>
+        <th>Modelo</th>
+        <th>Ano</th>
+        <th>Quantidade</th>
+        <th>Ações</th>
+    </tr>
+
+    <% carros.forEach(function(carro){ %>
+
+    <tr>
+        <td><%= carro.marca %></td>
+        <td><%= carro.modelo %></td>
+        <td><%= carro.ano %></td>
+
+        <td>
+            <% if (carro.qtde_disponivel <= 0) { %>
+                <span style="color:red;"><b>Esgotado</b></span>
+            <% } else { %>
+                <%= carro.qtde_disponivel %>
+            <% } %>
+        </td>
+
+        <td>
+            <a href="/editar/<%= carro._id %>">Atualizar</a> |
+            <a href="/deletar/<%= carro._id %>">Remover</a> |
+            <a href="/vender/<%= carro._id %>">Vender</a>
+        </td>
+    </tr>
+
+    <% }) %>
+
+</table>
+
+</body>
+</html>
