@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cadastro_produto">
+        <h1>Cadastro de produto</h1>
+        <p>Preencha o formulário abaixo para cadastrar um produto:</p>
+    </div>
+
+    <div class="formulario_produto">
+        <h2>Formulário de cadastro de produto</h2>
+        <form action="/cadastro_produto" method="post">
+            <p>Nome do produto: <input type="text" name="nome_produto"></p>
+            <p>Preço: <input type="number" name="preco_produto" step="0.01"></p>
+            <p>Quantidade: <input type="number" name="quantidade" step="0"></p>
+            <input type="submit" value="Cadastrar produto">
+        </form>
+    </div>
+
+    <div class="voltar">
+        <a href="home.html">HOME</a>
+
+        <p>Faça seu cadastro aqui!</p>
+        <a href="cadastro_usuario.html">Clique aqui!</a>
+</body>
+</html>

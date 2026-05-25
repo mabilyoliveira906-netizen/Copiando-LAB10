@@ -1,5 +1,5 @@
 {
-  "name": "copiando-lab10",
+  "name": "recriando-lab10",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
@@ -10,6 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "ejs": "^5.0.2",
     "express": "^5.2.1",
     "js": "^0.1.0",
     "mongodb": "^7.2.0"

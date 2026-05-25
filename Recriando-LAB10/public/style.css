@@ -1,0 +1,496 @@
+/* home.html*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c680e2;
+    margin: 0;
+    padding: 0;
+}
+
+/* CONTAINER HOME */
+.home {
+    text-align: center;
+    background-color: #9c25b9;
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* LINKS */
+.home a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #df78df;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.home a:hover {
+    background-color: #ece3ea;
+}
+
+/* TABELA */
+.Tabela {
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    background: rgba(104, 5, 117, 0.521);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(122, 3, 106, 0.678);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #500463;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+
+/* css para cadastro_usuario.html */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #6a0dad, #9b59b6);
+    min-height: 100vh;
+}
+
+/* TOPO */
+.cadastro_usuario{
+    text-align: center;
+    color: white;
+    padding: 30px 20px;
+}
+
+.cadastro_usuario h1{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.cadastro_usuario p{
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* FORMULÁRIO (CAIXA CENTRAL) */
+.formulario{
+    background: white;
+    width: 90%;
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+
+.formulario h2{
+    text-align: center;
+    color: #6a0dad;
+    margin-bottom: 15px;
+}
+
+/* TEXTOS */
+.formulario p{
+    margin-bottom: 12px;
+}
+
+/* INPUTS */
+input[type="text"],
+input[type="date"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus{
+    border-color: #6a0dad;
+}
+
+/* BOTÃO */
+input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #6a0dad;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background: #4b0082;
+}
+
+/* VOLTAR */
+.voltar{
+    text-align: center;
+    margin: 25px;
+}
+
+.voltar a{
+    display: inline-block;
+    background: white;
+    color: #6a0dad;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.voltar a:hover{
+    background: #eee;
+}
+
+.voltar p{
+    color: white;
+    margin-top: 10px;
+}
+
+/* css para cadastro_produto.html */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #6a0dad, #9b59b6);
+    min-height: 100vh;
+}
+
+/* TOPO */
+.cadastro_produto{
+    text-align: center;
+    color: white;
+    padding: 30px 20px;
+}
+
+.cadastro_produto h1{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.cadastro_produto p{
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* CAIXA DO FORMULÁRIO */
+.formulario_produto{
+    background: white;
+    width: 90%;
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+
+.formulario_produto h2{
+    text-align: center;
+    color: #6a0dad;
+    margin-bottom: 15px;
+}
+
+/* TEXTOS */
+.formulario_produto p{
+    margin-bottom: 12px;
+}
+
+/* INPUTS */
+input[type="text"],
+input[type="number"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus{
+    border-color: #6a0dad;
+}
+
+/* BOTÃO */
+input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #6a0dad;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background: #4b0082;
+}
+
+/* VOLTAR */
+.voltar{
+    text-align: center;
+    margin: 25px;
+}
+
+.voltar a{
+    display: inline-block;
+    background: white;
+    color: #6a0dad;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.voltar a:hover{
+    background: #eee;
+}
+
+.voltar p{
+    color: white;
+    margin-top: 10px;
+}
+
+
+
+
+/* css para resposta_usuario.html */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #6a0dad, #9b59b6);
+    min-height: 100vh;
+}
+
+/* CAIXA DE RESPOSTA */
+.resposta_usuario{
+    background: white;
+    width: 90%;
+    max-width: 450px;
+    margin: 60px auto 20px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.resposta_usuario h1{
+    color: #6a0dad;
+    margin-bottom: 15px;
+}
+
+.resposta_usuario p{
+    margin: 8px 0;
+}
+
+/* VOLTAR */
+.voltar{
+    text-align: center;
+    margin: 20px;
+}
+
+.voltar a{
+    display: inline-block;
+    background: white;
+    color: #6a0dad;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.voltar a:hover{
+    background: #eee;
+}
+
+.voltar p{
+    color: white;
+    margin-top: 10px;
+}
+
+
+/* css para resposta_produto.html */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #6a0dad, #9b59b6);
+    min-height: 100vh;
+}
+
+/* CAIXA DA RESPOSTA */
+.resposta_produto{
+    background: white;
+    width: 90%;
+    max-width: 450px;
+    margin: 60px auto 20px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.resposta_produto h1{
+    color: #6a0dad;
+    margin-bottom: 15px;
+}
+
+.resposta_produto p{
+    margin: 8px 0;
+}
+
+/* VOLTAR */
+.voltar{
+    text-align: center;
+    margin: 20px;
+}
+
+.voltar a{
+    display: inline-block;
+    background: white;
+    color: #6a0dad;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.voltar a:hover{
+    background: #eee;
+}
+
+/* gerenciar_produto.html */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #6a0dad, #9b59b6);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* MENU */
+.menu{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu .botao{
+    display: inline-block;
+    background: white;
+    color: #6a0dad;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu .botao:hover{
+    background: #eee;
+}
+
+/* TÍTULO */
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* TABELA CENTRAL */
+table{
+    margin: auto;
+    width: 90%;
+    max-width: 800px;
+    background: white;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+
+/* CABEÇALHO */
+th{
+    background: #6a0dad;
+    color: white;
+    padding: 12px;
+}
+
+/* CELULAS */
+td{
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+/* LINHA HOVER */
+tr:hover{
+    background: #f3e8ff;
+}
+
+/* LINKS AÇÕES */
+td a{
+    color: #6a0dad;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+td a:hover{
+    text-decoration: underline;
+}

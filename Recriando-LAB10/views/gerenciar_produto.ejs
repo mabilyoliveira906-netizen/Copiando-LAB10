@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gerência de Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="menu">
+    <a href="home.html" class="botao">Home</a>
+    <a href="cadastro_produto.html" class="botao">Cadastrar Produto</a>
+    <a href="lista_produtos.html" class="botao">Lista</a>
+</div>
+
+<h1>Gerência de Produtos</h1>
+
+<table border="1" style="margin:auto; background:white; text-align:center;">
+
+    <tr>
+        <th>Nome</th>
+        <th>Quantidade</th>
+        <th>Preço</th>
+        <th>Ações</th>
+    </tr>
+
+    <% produtos.forEach(function(produto){ %>
+
+    <tr>
+        <td><%= produto.nome_produto %></td>
+        <td><%= produto.quantidade %></td>
+        <td>R$ <%= produto.preco_produto %></td>
+
+        <td> |
+            <a href="/remover/<%= produto._id %>">Remover</a>
+            <a href="/vender/<%= produto._id %>">vender</a>
+        </td>
+    </tr>
+
+    <% }) %>
+
+</table>
+
+</body>
+</html>
